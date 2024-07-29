@@ -1,5 +1,8 @@
 package com.example.spring.demo.topic;
 
+import jakarta.persistence.Entity;
+
+@Entity
 public class Topic {
 
     private String id;
